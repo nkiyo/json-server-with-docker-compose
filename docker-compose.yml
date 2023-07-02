@@ -1,0 +1,7 @@
+version: '3'
+services:
+  json-server:
+    image: clue/json-server
+    command: -w db.json -host 0.0.0.0
+    volumes:
+      - ./data/db.json:/data/db.json
