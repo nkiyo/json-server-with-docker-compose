@@ -6,4 +6,4 @@ services:
     ports:
       - "8880:80"
     volumes:
-      - ./data:/data
+      - ./data/db.json:/data/db.json
